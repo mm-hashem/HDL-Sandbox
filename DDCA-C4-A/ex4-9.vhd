@@ -1,14 +1,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
-entity sandbox is
+entity logic_fun is
 	port(
 		a, b, c: in std_logic;
 		y: out std_logic
 	);
-end sandbox;
+end logic_fun;
 
-architecture synth of sandbox is
+architecture synth of logic_fun is
 	component mux8 is
 		port(
 			s: in std_logic_vector(2 downto 0);
