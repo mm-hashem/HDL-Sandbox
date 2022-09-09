@@ -1,4 +1,4 @@
----------4-bit CLA, an implementation of CPA----------
+---------4-bit CLAA, an implementation of CPA----------
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
@@ -23,17 +23,17 @@ architecture synth of CLAA_4B is
 	signal cout_0, cout_1, cout_2: std_logic;
 begin
 	cout_0 <=   g(0)  or (p(0) and cin);
-	cout_1 <=   (g(1) or (p(1) and (g(0) or p(0)))) or (p(1) and p(0) and cin);
-	cout_2 <=   (g(2) or (p(2) and (g(1) or (p(1) and (g(0) or p(0)))))) or (p(2) and p(1) and p(0) and cin);
-	cout_out <= (g(3) or (p(3) and (g(2) or (p(2) and (g(1) or (p(1) and (g(0) or p(0)))))))) or (p(3) and p(2) and p(1) and p(0) and cin);
+	cout_1 <=   (g(1) or (p(1) and g(0))) or (p(1) and p(0) and cin);
+	cout_2 <=   (g(2) or (p(2) and (g(1)  or (p(1) and g(0))))) or (p(2) and p(1) and p(0) and cin);
+	cout_out <= (g(3) or (p(3) and (g(2)  or (p(2) and (g(1) or (p(1) and g(0))))))) or (p(3) and p(2) and p(1) and p(0) and cin);
 	
-	FA_4B_0: CLAA_1B port map(a(0), b(0), cin,    sum(0), p(0), g(0));
-	FA_4B_1: CLAA_1B port map(a(1), b(1), cout_0, sum(1), p(1), g(1));
-	FA_4B_2: CLAA_1B port map(a(2), b(2), cout_1, sum(2), p(2), g(2));
-	FA_4B_3: CLAA_1B port map(a(3), b(3), cout_2, sum(3), p(3), g(3));
+	CLAA_4B_0: CLAA_1B port map(a(0), b(0), cin,    sum(0), p(0), g(0));
+	CLAA_4B_1: CLAA_1B port map(a(1), b(1), cout_0, sum(1), p(1), g(1));
+	CLAA_4B_2: CLAA_1B port map(a(2), b(2), cout_1, sum(2), p(2), g(2));
+	CLAA_4B_3: CLAA_1B port map(a(3), b(3), cout_2, sum(3), p(3), g(3));
 end;
 
----------1-bit CLA----------
+---------1-bit CLAA----------
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
