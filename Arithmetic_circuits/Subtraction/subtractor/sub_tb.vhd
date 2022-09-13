@@ -1,11 +1,11 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
-entity FS_4B_tb is
+entity SUB_4B_tb is
 end;
 
-architecture sim of FS_4B_tb is
-	component FS_4B
+architecture sim of SUB_4B_tb is
+	component SUB_4B
 		port(
 			a, b: in std_logic_vector(3 downto 0);
 			sub: out std_logic_vector(3 downto 0)
@@ -17,7 +17,7 @@ architecture sim of FS_4B_tb is
 	signal op_tb_sub: std_logic_vector(3 downto 0);
 	
 begin
-	dut: FS_4B port map(ip_tb_a, ip_tb_b, op_tb_sub);
+	dut: SUB_4B port map(ip_tb_a, ip_tb_b, op_tb_sub);
 	stimulus:
 	process begin
 		ip_tb_a <= "0111";
