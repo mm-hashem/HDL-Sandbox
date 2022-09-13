@@ -24,7 +24,7 @@ begin
 	FS_4B_3: SUB_1B port map(a(3), not b(3), cout_internal(2), sub(3), open);
 end;
 
----------1-bit FULL SUBTRACTOR----------
+---------1-bit Subtractor----------
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
