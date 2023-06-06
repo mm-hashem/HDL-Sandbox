@@ -4,11 +4,11 @@ A place for my HDL codes, such as answers to question in textbooks, projects or 
 ## TODOs
 ### ALU
 - More Flags
- - Carry flag
- - Half Carry Flag
- - Zero Flag
+  - Carry flag
+  - Half Carry Flag
+  - Zero Flag
 - More Functions
- - ~~AND~~
+  - ~~AND~~
  - ~~OR~~
  - ~~Addition~~
  - ~~Subtraction~~
