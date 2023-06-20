@@ -1,9 +1,7 @@
 # HDL-Sandbox
 A place for my HDL codes, such as answers to question in textbooks, projects or anything.
-
 ## TODOs
 ### Verilog ALU
-
 ## Implemented Designs:
 ### Verilog
 - BCD Incrementor
@@ -16,7 +14,7 @@ A place for my HDL codes, such as answers to question in textbooks, projects or 
 - Carry Propagation Adders
   - Carry-Lookahead Adder
   - Ripple Carry Adder
-  - Full * Half Adders
+  - Full & Half Adders
 - ALU
 - Comparators
   - Equality Comparator
