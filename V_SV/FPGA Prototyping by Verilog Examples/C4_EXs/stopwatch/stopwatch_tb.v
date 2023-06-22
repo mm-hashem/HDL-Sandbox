@@ -24,9 +24,9 @@ begin
   @(negedge clk_tb);
   go_tb = 1'b1;
   up_tb = 1'b1;
-  repeat(100) @(negedge clk_tb);
+  repeat(3500) @(negedge clk_tb);
   up_tb = 1'b0;
-  repeat(100) @(negedge clk_tb);
+  repeat(3500) @(negedge clk_tb);
   $stop;
 end
 
