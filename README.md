@@ -6,7 +6,7 @@ A place for my HDL codes, such as answers to question in textbooks, projects or 
 - ### Verilog
   - BCD Incrementor
   - Dual Priority Encoder
-  - Multi Barrel Shifter (Right & Lift)
+  - Multi Barrel Shifter (Right & Left)
   - Programmable Square Wave Generator
   - Stack (LIFO)
   - Stopwatch with up & down functionality
