@@ -1,27 +1,28 @@
 ### ALU
+#### Used for verification purposes
 - More Flags
   - Carry flag
   - Half Carry Flag
   - Zero Flag
 - More Functions
-  - ~~AND~~
-  - ~~OR~~
   - ~~Addition~~
   - ~~Subtraction~~
-  - Exclusive OR
+  - ~~Multiplication~~
+  - ~~Divison~~
+  - ~~Modulus~~
+  - ~~Exponentiation~~
+  - ~~AND~~
+  - ~~OR~~
+  - ~~Exclusive OR~~
+  - ~~Concatenation~~
+  - ~~Logical Shifting~~
+  - ~~Arithmetic Shifting~~
+  - ~~Comparison~~
   - 1’s Complement
   - 2's Complement
-  - Increment
-  - Decrement
   - Word Test
   - Bit Test
-  - Multiplication
-  - Compare
-  - Logical Shifting
-  - Arithmetic Shifting
   - Swap Nibbles
-  - Rotation
   - Copy
   - Clearing
   - Setting
-- Enhance Testbench & Verification
