@@ -1,4 +1,4 @@
-module dual_edge_detector
+module dual_edge_detector_moore
 (
   input wire clk, rst,
              wave,

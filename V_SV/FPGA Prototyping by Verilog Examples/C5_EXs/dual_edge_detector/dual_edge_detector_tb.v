@@ -7,7 +7,7 @@ reg clk_tb, rst_tb,
     wave_tb;
 wire tick_tb;
 
-dual_edge_detector uut(.clk(clk_tb), .rst(rst_tb), .wave(wave_tb), .tick(tick_tb));
+dual_edge_detector_mealy uut(.clk(clk_tb), .rst(rst_tb), .wave(wave_tb), .tick(tick_tb));
 
 always
 begin
