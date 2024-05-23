@@ -1,6 +1,8 @@
 # HDL-Sandbox
 A place for my HDL codes, such as answers to question in textbooks, projects or anything.
 ## Implemented Designs:
+- ### SystemVerilog
+  - RC4 Cipher
 - ### Verilog
   - UART (TX, RX, Controller)
   - FIFO
