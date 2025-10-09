@@ -11,6 +11,7 @@ A place for my HDL codes, such as answers to question in textbooks, projects or 
   - UART (TX; RX; Controller)
   - *SV Interface*
 - ### Verilog
+  - CORDIC
   - LIFO
   - Stopwatch with up & down functionality
   - Programmable Square Wave Generator
