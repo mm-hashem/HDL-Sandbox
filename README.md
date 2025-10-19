@@ -9,6 +9,7 @@ A place for my HDL codes, such as answers to question in textbooks, projects or 
   - Deserializer
   - FIFO
   - UART (TX; RX; Controller)
+  - Sparse Memory (not synthesizable)
   - *SV Interface*
 - ### Verilog
   - CORDIC
